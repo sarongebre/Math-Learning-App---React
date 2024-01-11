@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+nav {
+    text-align: right;
+    /* padding-right: 4%; */
+    /* margin: auto;
+    margin: 0%; */
+  /* margin-top: 2%; */
+    /* display: inline; */
+}
+
+a {
+    color: white;
+    padding-left: 3%;
+ 
+}
+
+button{
+    cursor: pointer;
+}
+
+
+#container1 {
+  display: grid;
+  /* grid-template-columns: 1fr 5fr 1fr; */
+  grid-template-rows: 10vh 80vh 10vh;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+}
+
+header {
+    /* background-color: rgb(83, 95, 83); */
+    background-color: rgb(69, 77, 105);
+    background-image: url(../transparent-architecture-construction-icon-calculator-icon-5ff928e3b447d4.8983431816101644517384.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    
+}
+
+main {
+    display: grid;
+  /* background-color: rgb(134, 166, 255); */
+  background: url(../multiethnic-group-young-concentrated-students.jpg);
+  /* background-position: left; */
+  background-size: cover;
+background-position: left; 
+ grid-template-columns: 3fr 6fr;
+  grid-template-areas:
+  "photo"
+  "intro";
+  /* grid-gap: 10%; */
+  margin-bottom: 0;
+
+}
+
+
+#photo {
+    /* height: 100%; */
+    background-color: rgb(255, 255, 255,0.7);
+    /* border: solid; */
+    /* border-color: black; */
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+#intro {
+    height: 80vh;
+    /* height: 700px; */
+    /* display: grid; */
+    /* margin-top: 20%; */
+    background-color: rgb(255, 255, 255,0.7);
+    /* border: solid; */
+    /* border-color: black; */
+    /* grid-template-rows: 4fr 4fr;
+    grid-template-areas:
+    "space"
+    "buttons"; */
+    /* opacity: 0.5; */
+    /* grid-template-rows: 50px 6fr;
+    grid-template-areas:
+    "header1"
+    "header2"; */
+    
+}
+
+footer {
+    background-color: rgb(69, 77, 105);
+    color: white;
+}
+
+/* main2 */
+
+#main2{
+    display: grid;
+ 
+ grid-template-columns: 1fr 6fr;
+  grid-template-areas:
+  "photo"
+  "intro";
+  /* grid-gap: 10%; */
+  margin-bottom: 0;
+
+ 
+
+}
+
+#intro2 {
+    display: grid;
+    height: 80vh;
+    /* height: 700px; */
+    /* display: grid; */
+    /* margin-top: 20%; */
+    background-color: rgb(255, 255, 255,0.7);
+    border: solid;
+    border-color: black;
+    /* grid-template-rows: 4fr 4fr;
+    grid-template-areas:
+    "space"
+    "buttons"; */
+    /* opacity: 0.5; */
+    grid-template-rows: 50px 6fr;
+    grid-template-areas:
+    "header1"
+    "header2";
+    
+}
+
+
+
+#header1 {
+    border: solid;
+    /* border-color: rgb(244, 24, 24); */
+    display: flex;
+    flex-direction: row;
+    
+  
+}
+
+
+
+#header2 {
+    border: solid;
+    /* border-color: rgb(255, 0, 0); */
+}
+
+.mainButton {
+
+    border: solid 2px  rgb(69, 77, 105);
+    height: 20%;
+}
+
+
+.divCenter{
+
+    border: solid black; border-radius: 5em; padding: 5%; margin-left:48%; margin-top: 10%; text-align: center; width: 50%; max-height: 100%;
+
+}
+
+.homeButton {
+    padding:3%; border-radius: 5em; margin:0; margin-top:5%;
+}
+
+h6,h3 {
+    text-align: center;
+}
+
+button:hover, button:focus, .homeButton:focus {
+    background-color: rgb(69, 77, 105);
+    color: white;
+}
+
+footer {
+    text-align: center;
+}
+
+
+
+#intro3 {
+    display: grid;
+    height: 80vh;
+    /* height: 700px; */
+    /* display: grid; */
+    /* margin-top: 20%; */
+    background-color: rgb(255, 255, 255,0.7);
+    border: solid;
+    border-color: black;
+    /* grid-template-rows: 4fr 4fr;
+    grid-template-areas:
+    "space"
+    "buttons"; */
+    /* opacity: 0.5; */
+    grid-template-rows:20px  50px 6fr;
+    grid-template-areas:
+    "header1"
+    "header2";
+    
+}
+
+
+#intro3 #header1 {
+    justify-self: center;
+}
+
+#intro3 #header2 {
+   display: grid;
+   grid-template-columns:2fr  6fr 2fr;
+   grid-template-areas:
+   "header1"
+   "header2";
+}
